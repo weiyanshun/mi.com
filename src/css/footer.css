@@ -1,0 +1,161 @@
+@charset "utf-8";
+.footer .site-footer .footer-service {
+  padding: 27px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+.footer .site-footer .footer-service .list-service li {
+  float: left;
+  width: 19.8%;
+  height: 25px;
+  border-left: 1px solid #e0e0e0;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+}
+.footer .site-footer .footer-service .list-service li a {
+  color: #616161;
+}
+.footer .site-footer .footer-service .list-service li a em {
+  margin-right: 6px;
+  font-size: 20px;
+  vertical-align: -4px;
+}
+.footer .site-footer .footer-links {
+  padding: 40px 0;
+}
+.footer .site-footer .footer-links .col-links {
+  float: left;
+  width: 160px;
+  margin: 0;
+}
+.footer .site-footer .footer-links .col-links dt {
+  margin: -1px 0 26px;
+  font-size: 14px;
+  line-height: 1.25;
+  color: #424242;
+  font-weight: 400;
+}
+.footer .site-footer .footer-links .col-links dd {
+  margin: 10px 0 0;
+  font-size: 12px;
+}
+.footer .site-footer .footer-links .col-links dd a {
+  color: #757575;
+}
+.footer .site-footer .footer-links .col-contact {
+  float: right;
+  width: 251px;
+  border-left: 1px solid #e0e0e0;
+  text-align: center;
+  color: #616161;
+}
+.footer .site-footer .footer-links .col-contact .phone {
+  font-size: 22px;
+  line-height: 1;
+  color: #ff6700;
+}
+.footer .site-footer .footer-links .col-contact p {
+  margin: 0 0 5px 0;
+  font-size: 12px;
+}
+.footer .site-footer .footer-links .col-contact .btn-line-primary {
+  border-color: #ff6700;
+  background: #fff;
+  color: #ff6700;
+}
+.footer .site-footer .footer-links .col-contact .btn-small {
+  display: inline-block;
+  width: 118px;
+  height: 28px;
+  font-size: 12px;
+  line-height: 28px;
+  border: 1px solid ;
+  border-radius: 5px;
+}
+.footer .site-footer .footer-links .col-contact .btn-small em {
+  font-size: 12px;
+}
+.footer .site-footer .footer-links .col-contact .follow {
+  font-size: 12px;
+  margin-top: 10px;
+  position: relative;
+}
+.footer .site-footer .footer-links .col-contact .follow a {
+  width: 24px;
+  height: 24px;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 6px;
+  margin-top: 3px;
+}
+.footer .site-footer .footer-links .col-contact .follow a:hover span {
+  color: #ff6700;
+}
+.footer .site-footer .footer-links .col-contact .follow a span {
+  font-size: 20px;
+}
+.footer .site-footer .footer-links .col-contact .follow .wx:hover + img {
+  display: block;
+}
+.footer .site-footer .footer-links .col-contact .follow img {
+  width: 126px;
+  height: 126px;
+  z-index: 2;
+  position: absolute;
+  top: 20px;
+  left: 112px;
+  display: none;
+}
+.footer .site-info {
+  padding: 30px 0;
+  font-size: 12px;
+  background: #fafafa;
+}
+.footer .site-info .wrapper {
+  position: relative;
+}
+.footer .site-info .wrapper .ir {
+  width: 57px;
+  height: 57px;
+  margin-right: 10px;
+  background: url(https://s02.mifile.cn/assets/static/image/logo-footer.png) no-repeat 50% 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: left;
+  text-indent: -9999em;
+}
+.footer .site-info .wrapper .info-text {
+  color: #b0b0b0;
+  padding-left: 67px;
+}
+.footer .site-info .wrapper .info-text .sites {
+  margin: 0;
+  line-height: 18px;
+}
+.footer .site-info .wrapper .info-text .sites a {
+  color: #757575;
+}
+.footer .site-info .wrapper .info-text p > a {
+  color: #b0b0b0;
+}
+.footer .site-info .wrapper .info-links {
+  height: 28px;
+  margin: 4px 0 15px;
+  padding-left: 67px;
+}
+.footer .site-info .wrapper .info-links a {
+  display: inline-block;
+}
+.footer .site-info .wrapper .info-links a img {
+  height: 28px;
+}
+.footer .slogan {
+  clear: both;
+  margin: 30px auto 0;
+  width: 100%;
+  height: 19px;
+  background: url(https://cdn.cnbj1.fds.api.mi-img.com/staticsfile/global/slogan2020.png) no-repeat center 0;
+  text-indent: -9999em;
+}

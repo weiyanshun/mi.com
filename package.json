@@ -1,0 +1,27 @@
+{
+  "name": "mi.com",
+  "version": "1.0.0",
+  "description": "前端项目结构\r - 项目名\r     - [node_modules]   存放第三方node模块 由npm自动生成 不需要git管理\r     - [interface]      存放php文件\r         - [library]    库文件 例如 comm\r     - [src]            存放前端项目源代码\r         - [html]     \r             - index.html\r         - [styles]\r             - index.less\r         - [js]\r             - [library] 前端库文件\r                 - jquery.js\r                 - bootstrap.js\r                 - cookie.js\r                 - querystring.js\r             - index.js\r             - product.js\r             - shop.js\r             - reg.js\r             - login.js\r     - [dist]           存放工具生成的文件(gulp grunt webpack...)\r         - [html]\r             - index.html\r         - [css]\r             - index.min.css\r         - [js]\r     - gulpfile.js      gulp的配置文件\r     - .gitignore       git忽略列表\r     - package.json     node模块依赖列表\r     - README.md        项目说明",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.5.1"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-less": "^4.0.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp.spritesmith": "^6.11.0"
+  }
+}

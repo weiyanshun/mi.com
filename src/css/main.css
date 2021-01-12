@@ -1,0 +1,268 @@
+@charset "utf-8";
+.main {
+  padding-top: 4px;
+  padding-bottom: 12px;
+  background: #f5f5f5;
+}
+.main .main-page {
+  margin-bottom: 22px;
+  position: relative;
+}
+.main .main-page .box-hd {
+  height: 58px;
+}
+.main .main-page .box-hd h2 {
+  font-size: 22px;
+  font-weight: 200;
+  line-height: 58px;
+  color: #333;
+}
+.main .main-page .box-picture .red {
+  float: left;
+  border-top-color: #e53935;
+  border-top-width: 1px;
+  border-top-style: solid;
+  width: 234px;
+  height: 340px;
+  padding-top: 39px;
+  background: #f1eded;
+  text-align: center;
+}
+.main .main-page .box-picture .red p {
+  font-size: 21px;
+  color: #ef3a3b;
+  padding-top: 15px;
+}
+.main .main-page .box-picture .red img {
+  margin: 25px auto;
+}
+.main .main-page .box-picture .red .desc {
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 15px;
+}
+.main .main-page .box-picture .red .countdown {
+  width: 168px;
+  margin: 28px auto 0;
+}
+.main .main-page .box-picture .red .countdown span {
+  width: 46px;
+  height: 46px;
+  background: #605751;
+  color: #fff;
+  font-size: 24px;
+  line-height: 46px;
+  float: left;
+}
+.main .main-page .box-picture .red .countdown i {
+  width: 15px;
+  float: left;
+  height: 46px;
+  line-height: 46px;
+  color: #605751;
+  font-size: 28px;
+  font-style: normal;
+}
+.main .main-page .box-picture .tinct {
+  float: left;
+  height: 340px;
+}
+.main .main-page .box-picture .tinct ul {
+  height: 340px;
+}
+.main .main-page .box-picture .tinct ul li {
+  float: left;
+  width: 234px;
+  height: 340px;
+  margin-left: 14px;
+  border-top-color: #ffac13;
+  border-top-width: 1px;
+  border-top-style: solid;
+  text-align: center;
+  background: #fff;
+  transition: all 0.6s;
+  position: relative;
+}
+.main .main-page .box-picture .tinct ul li a {
+  padding-top: 39px;
+  position: relative;
+}
+.main .main-page .box-picture .tinct ul li a .thumb {
+  width: 160px;
+  margin: 0 auto 22px;
+}
+.main .main-page .box-picture .tinct ul li a .thumb img {
+  width: 160px;
+  height: 160px;
+}
+.main .main-page .box-picture .tinct ul li a .title {
+  margin: 0 20px 3px;
+  font-size: 14px;
+  font-weight: 400;
+  text-overflow: ellipsis;
+  color: #212121;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.main .main-page .box-picture .tinct ul li a .desc {
+  height: 18px;
+  margin: 0 20px 12px;
+  font-size: 12px;
+  text-overflow: ellipsis;
+  color: #b0b0b0;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.main .main-page .box-picture .tinct ul li a .price {
+  margin: 0;
+  color: #ff6709;
+}
+.main .main-page .box-picture .tinct ul li a .price del {
+  color: #b0b0b0;
+}
+.main .main-page .banner {
+  height: 120px;
+  margin: 22px 0;
+}
+.main .main-page .banner img {
+  height: 120px;
+}
+.main .main-page .miphone .mi11,
+.main .main-page .box .mi11 {
+  float: left;
+  width: 234px;
+}
+.main .main-page .miphone .mi11 img,
+.main .main-page .box .mi11 img {
+  width: 234px;
+}
+.main .main-page .miphone .manymi,
+.main .main-page .box .manymi {
+  float: left;
+  width: 992px;
+}
+.main .main-page .miphone .manymi li,
+.main .main-page .box .manymi li {
+  float: left;
+  width: 234px;
+  height: 300px;
+  margin-left: 14px;
+  margin-bottom: 14px;
+  background: #fff;
+  padding: 20px 0;
+}
+.main .main-page .miphone .manymi li img,
+.main .main-page .box .manymi li img {
+  display: block;
+  width: 160px;
+  height: 160px;
+  margin: 0 auto 18px;
+}
+.main .main-page .miphone .manymi li h3,
+.main .main-page .box .manymi li h3,
+.main .main-page .miphone .manymi li .desc,
+.main .main-page .box .manymi li .desc {
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.main .main-page .miphone .manymi li h3,
+.main .main-page .box .manymi li h3 {
+  margin: 0 10px 2px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #333;
+}
+.main .main-page .miphone .manymi li .desc,
+.main .main-page .box .manymi li .desc {
+  margin: 0 10px 10px;
+  height: 18px;
+  line-height: 18px;
+  font-size: 12px;
+  color: #b0b0b0;
+}
+.main .main-page .miphone .manymi li .price,
+.main .main-page .box .manymi li .price {
+  font-size: 14px;
+  margin: 0 10px 14px;
+  text-align: center;
+  color: #ff6700;
+}
+.main .main-page .miphone .manymi li .price del,
+.main .main-page .box .manymi li .price del {
+  margin-left: 0.5em;
+  color: #b0b0b0;
+}
+.main .main-page .more {
+  position: relative;
+}
+.main .main-page .more .more-tab {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.main .main-page .more .more-tab .tab-list {
+  padding: 16px 0 0;
+  font-size: 16px;
+}
+.main .main-page .more .more-tab .tab-list li {
+  margin: 0 0 0 30px;
+  display: inline;
+  color: #424242;
+  border-bottom: 2px solid #ff6700;
+  cursor: pointer;
+}
+.main .main-page .box .mibox1 {
+  float: left;
+  width: 234px;
+}
+.main .main-page .box .mibox1 ul li {
+  margin-bottom: 14px;
+}
+.main .main-page .box .mibox1 ul li img {
+  height: 300px;
+}
+.main .main-page .mv li {
+  position: relative;
+  float: left;
+  width: 296px;
+  height: 285px;
+  margin-left: 14px;
+  text-align: center;
+  background: #fff;
+}
+.main .main-page .mv li a .vid {
+  position: relative;
+  width: 296px;
+  height: 180px;
+  margin: 0 0 28px;
+}
+.main .main-page .mv li a .vid img {
+  display: block;
+}
+.main .main-page .mv li a .vid span {
+  position: absolute;
+  left: 20px;
+  bottom: 10px;
+  width: 32px;
+  border: 2px solid #fff;
+  border-radius: 12px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  transition: all 0.2s;
+  overflow: hidden;
+  text-align: center;
+}
+.main .main-page .mv li a .vid span i {
+  font-size: 13px;
+}
+.main .main-page .mv li h3 {
+  margin: 0 14px 6px;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  color: #333;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}

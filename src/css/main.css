@@ -10,12 +10,32 @@
 }
 .main .main-page .box-hd {
   height: 58px;
+  position: relative;
 }
 .main .main-page .box-hd h2 {
   font-size: 22px;
   font-weight: 200;
   line-height: 58px;
   color: #333;
+}
+.main .main-page .box-hd .span {
+  position: absolute;
+  bottom: 5px;
+  right: 0;
+}
+.main .main-page .box-hd .span span {
+  display: inline-block;
+  width: 34px;
+  height: 22px;
+  border: 1px solid #e0e0e0;
+  font-size: 23px;
+  line-height: 22px;
+  color: #b0b0b0;
+  text-align: center;
+  cursor: pointer;
+}
+.main .main-page .box-hd .span span:hover {
+  color: #ff6700;
 }
 .main .main-page .box-picture .red {
   float: left;
@@ -131,6 +151,11 @@
   float: left;
   width: 234px;
 }
+.main .main-page .miphone .mi11:hover,
+.main .main-page .box .mi11:hover {
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  transform: translate3d(0, -2px, 0);
+}
 .main .main-page .miphone .mi11 img,
 .main .main-page .box .mi11 img {
   width: 234px;
@@ -149,6 +174,11 @@
   margin-bottom: 14px;
   background: #fff;
   padding: 20px 0;
+}
+.main .main-page .miphone .manymi li:hover,
+.main .main-page .box .manymi li:hover {
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  transform: translate3d(0, -2px, 0);
 }
 .main .main-page .miphone .manymi li img,
 .main .main-page .box .manymi li img {
@@ -209,8 +239,17 @@
   margin: 0 0 0 30px;
   display: inline;
   color: #424242;
-  border-bottom: 2px solid #ff6700;
   cursor: pointer;
+}
+.main .main-page .more .more-tab .tab-list li:hover {
+  color: #ff6700;
+  border-bottom: 2px solid #ff6700;
+}
+.main .main-page .more .more-tab .tab-list li a:hover span {
+  color: #ff6700;
+}
+.main .main-page .more .more-tab .tab-list .moo:hover {
+  border: 0;
 }
 .main .main-page .box .mibox1 {
   float: left;
@@ -218,6 +257,10 @@
 }
 .main .main-page .box .mibox1 ul li {
   margin-bottom: 14px;
+}
+.main .main-page .box .mibox1 ul li:hover {
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  transform: translate3d(0, -2px, 0);
 }
 .main .main-page .box .mibox1 ul li img {
   height: 300px;
@@ -230,6 +273,10 @@
   margin-left: 14px;
   text-align: center;
   background: #fff;
+}
+.main .main-page .mv li:hover {
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  transform: translate3d(0, -2px, 0);
 }
 .main .main-page .mv li a .vid {
   position: relative;

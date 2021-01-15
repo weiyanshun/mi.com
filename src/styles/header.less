@@ -8,6 +8,16 @@
 .header{
  margin-bottom: 26px;
 
+ .swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: 10px;
+    left: 1060px;
+    width: 150px;
+}
+.swiper-button-prev, .swiper-container-rtl .swiper-button-next {
+    left: 245px;
+    right: auto;
+}
+
  .header-top{
       height: 40px;
       background: #333;
@@ -119,16 +129,14 @@
                     width: 55px;
                     height: 55px;
                     background-color: #ff6700;
-                    // &:hover{
-                    //     ::before{
-                    //         left:55px;
-                    //         top:0;
-                    //     }
-                    //     ::after{
-                    //         left:55px;
-                    //         top:0;
-                    //     }
-                    // }
+                    &:hover{
+                        &::before{
+                            margin-left: 55px;
+                        }
+                        &::after{
+                           margin-left: 0;
+                        }
+                    }
                         &::before{
                             background: url(https://s02.mifile.cn/assets/static/image/mi-logo.png) no-repeat 50% 50%;
                             opacity: 1; 
@@ -325,10 +333,54 @@
         
 } 
 
-.header-home{
+.part1 {
     height: 460px;
-    background: #ff6700;
-     
+
+    >.wrapper {
+        position: relative;
+        height: 460px;
+
+        >div {   
+            float: left;
+        }
+    }
+
+
+    .tab>ul {
+        background: #444f57;
+        padding: 15px 0;
+        position: absolute;
+        z-index: 99;
+
+        li {
+            width: 235px;
+            height: 43px;
+            background: #444f57;
+            padding-left: 30px;
+            line-height: 43px;
+            position: relative;
+
+            &:hover {
+                background: #ff6700;
+            }
+
+            span {
+                font-size: 14px;
+                color: #e0e0e0;
+                position: absolute;
+                right: 24px;
+                top: 15px;
+            }
+
+            a {
+                color: #fff;
+            }
+        }
+    }
+
+    
+
+
 }
 .header-sub{
     margin-top: 14px;
@@ -396,6 +448,9 @@
                     width: 316px;
                     height: 170px;
                     margin-left: 15px;
+                    &:hover{
+                        box-shadow: 0 15px 30px rgba(0,0,0,.1);
+                    }
                         a{
                             display: block;
                             height: 170px;

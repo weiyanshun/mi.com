@@ -5,83 +5,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../css/login.css">
     <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../iconfont/iconfont.css">
+    <link rel="stylesheet" href="../font_1bgwbsk0k5l/iconfont.css">
+    <script src="../js/login.js"></script>
 </head>
 
 <body>
-    <div class="login">
+    <div class="top">
+        <div class="wrapper">
+            <a href=""></a>
+        </div>
+    </div>
+    <div class="main-img">
         <div class="wrap">
-            <div class="frame">
-
-                <div class="logo">
-                    <a href=""></a>
+            <div class="lay">
+                <div class="tab-p">
+                    <a href="" class="one">账号登录</a>
+                    <a href="" class="two">扫码登录</a>
                 </div>
+                <form action="../../interface/login.php" method="GET">
+                    <input type="text" name="phone" id="phone" placeholder="邮箱/手机号码/小米ID" style="margin-bottom: 16px;"><span class="p"></span>
 
-                <div class="item">
-                    <h4>注册小米账号</h4>
+                    <input type="password" placeholder="密码" id="password" name="password"><span class="p"></span>
+
+                    <input type="submit" value="登录" class="sm" id="submit" disabled>
+                </form>
+
+                <a href="./reg.html" class="iphone">手机短信登录/注册</a>
+
+                <div class="beg">
+                    <a href="./reg.html">立即注册</a>
+                    <span>|</span>
+                    <a href="">忘记密码？</a>
                 </div>
-
-                <div class="wu">
-                    <div class="text">
-                        <div class="step1">
-                            <h4>国家/地区</h4>
-                            <div class="listwrap">
-                                <div class="cn clear">
-                                    <p>中国</p>
-                                    <i></i>
-                                </div>
-                            </div>
-                            <div class="tip">
-                                成功注册帐号后，国家/地区将不能被修改
-                            </div>
-                            <h4>手机号码</h4>
-                            <div class="phone">
-                                <div class="inputbox">
-
-                                    <label for="">
-                                        <div class="cy">
-                                            <div class="tits">
-                                                <p>+86</p>
-                                                <i></i>
-                                            </div>
-                                        </div>
-                                        <input type="tel" name="phone" data-type="PH" placeholder="请输入手机号码">
-                                    </label>
-                                </div>
-                            </div>
-                            <div class="sub">
-                                <input type="submit" value="立即注册">
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="privacy">
-                        <div class="msg">
-                            <label class="n_checked select-privacy">
-                                已阅读并同意：小米 
-                                <a href="/about/protocol/agreement" class="inspect_link agreement_link" title="用户协议" target="_blank">用户协议</a>
-                                和<a href="/about/protocol/privacy" class="inspect_link privacy_link" title=" 隐私政策 " target="_blank"> 隐私政策 </a>
-                              </label>
-                        </div>
-                    </div>
+                <div class="tubiao">
+                    <span class="iconfont icon-qq"></span>
+                    <span class="iconfont icon-weixin"></span>
+                    <span class="iconfont icon-weibo"></span>
+                    <span class="iconfont icon-zhifubao
+                    "></span>
                 </div>
             </div>
         </div>
-        <div class="footer">
-            <div class="nf-link-area clear">
-                <ul class="lang-select-list">
-                    <li><a class="lang-select-li current" href="javascript:void(0)" data-lang="zh_CN">简体</a>|</li>
-                    <li><a class="lang-select-li" href="javascript:void(0)" data-lang="zh_TW">繁体</a>|</li>
-                    <li><a class="lang-select-li" href="javascript:void(0)" data-lang="en">English</a></li>
+    </div>
+    <div class="footer">
+        <div class="nf-link-area clear">
+            <ul class="lang-select-list">
+                <li><a class="lang-select-li current" href="javascript:void(0)" data-lang="zh_CN">简体</a>|</li>
+                <li><a class="lang-select-li" href="javascript:void(0)" data-lang="zh_TW">繁体</a>|</li>
+                <li><a class="lang-select-li" href="javascript:void(0)" data-lang="en">English</a></li>
 
-                    |
-                    <li><a class="a_critical" href="https://account.xiaomi.com/helpcenter/faq" target="_blank"><em></em>常见问题</a></li>
+                |
+                <li><a class="a_critical" href="https://account.xiaomi.com/helpcenter/faq" target="_blank"><em></em>常见问题</a></li>
 
-                </ul>
-                <p class="nf-intro"><span>小米公司版权所有-京ICP备10046444-<a class="beianlink beian-record-link" target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802020134"><span><img src="https://account.xiaomi.com/static/res/9204d06/account-static/respassport/acc-2014/img/ghs.png"></span>京公网安备11010802020134号</a>-京ICP证110507号</span>
-                </p>
-            </div>
+            </ul>
+            <p class="nf-intro"><span>小米公司版权所有-京ICP备10046444-<a class="beianlink beian-record-link" target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802020134"><span><img src="https://account.xiaomi.com/static/res/9204d06/account-static/respassport/acc-2014/img/ghs.png"></span>京公网安备11010802020134号</a>-京ICP证110507号</span>
+            </p>
         </div>
     </div>
 </body>

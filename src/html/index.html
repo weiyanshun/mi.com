@@ -6,12 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../iconfont/iconfont.css">
-    <link rel="stylesheet" href="../css/header.css">
-    <link rel="stylesheet" href="../css/main.css">
-    <link rel="stylesheet" href="../css/footer.css">
-    <script src="../js/index+1.js" type="module"></script>
+    <link rel="stylesheet" href="../css/mi.css">
+    <script src="../js/index.js" type="module"></script>
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="../package/swiper-bundle.min.css">
+
+    <!-- Demo styles -->
+    <style>
+        html,
+        body {
+            position: relative;
+            height: 100%;
+        }
+        
+        body {
+            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            color: #000;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .swiper-container {
+            width: 100%;
+            height: 100%;
+        }
+        
+        .swiper-slide {
+            background-position: center;
+            background-size: cover;
+        }
+    </style>
+
 </head>
 
 <body>
@@ -61,7 +89,7 @@
                     </div>
 
                     <div class="topbar-cart">
-                        <a href="">
+                        <a href="./shop.html">
                             <em class="glyphicon glyphicon-shopping-cart"></em>
                             <em>购物车</em>
                             <span>(0)</span>
@@ -69,8 +97,8 @@
                     </div>
 
                     <div class="topbar-right">
-                        <a href="">登录</a><span>|</span>
-                        <a href="">注册</a><span>|</span>
+                        <a href="./login.html">登录</a><span>|</span>
+                        <a href="./reg.html">注册</a><span>|</span>
                         <a href="">消息通知</a>
                     </div>
                 </div>
@@ -125,8 +153,119 @@
 
             </div>
 
-            <div class="header-home clear">
+            <!-- 轮播图 -->
+            <!-- 第一部分 选项卡和轮播图 -->
 
+            <div class="part1">
+                <div class="wrapper clearfix">
+                    <!-- 选项卡 -->
+                    <div class="tab">
+                        <ul>
+                            <li>
+                                <a href="">手机 电话卡</a>
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                            </li>
+                            <li>
+                                <a href="">电视 盒子</a>
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                            </li>
+                            <li>
+                                <a href="">笔记本 显示器</a>
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                            </li>
+                            <li>
+                                <a href="">家电 插线板</a>
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                            </li>
+                            <li>
+                                <a href="">出行 穿戴</a>
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                            </li>
+                            <li>
+                                <a href="">智能 路由器</a>
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                            </li>
+                            <li>
+                                <a href="">电源 配件</a>
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                            </li>
+                            <li>
+                                <a href="">健康 儿童</a>
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                            </li>
+                            <li>
+                                <a href="">耳机 音响</a>
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                            </li>
+                            <li>
+                                <a href="">生活 箱包</a>
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- 轮播图 -->
+                    <!-- <div class="banner">
+                        <a href="#">
+                            <img class="lazy" src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/9ebff5f5c1f52f2dbdd611897adbefd4.jpg?thumb=1&w=1226&h=460&f=webp&q=90" alt="">
+                        </a>
+                        <a href="#">
+                            <img class="lazy" src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/9ebff5f5c1f52f2dbdd611897adbefd4.jpg?thumb=1&w=1226&h=460&f=webp&q=90" alt="">
+                        </a>
+                        <a href="#">
+                            <img class="lazy" src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/9ebff5f5c1f52f2dbdd611897adbefd4.jpg?thumb=1&w=1226&h=460&f=webp&q=90" alt="">
+                        </a>
+                        <a href="#">
+                            <img class="lazy" src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/9ebff5f5c1f52f2dbdd611897adbefd4.jpg?thumb=1&w=1226&h=460&f=webp&q=90" alt="">
+                        </a>
+
+
+
+                    </div>
+                    <div class="swiper-pre"></div>
+                    <div class="swiper-next"></div>
+                    <div class="swiper-list">
+                        <a href="#"></a>
+                        <a href="#"></a>
+                        <a href="#"></a>
+                        <a href="#"></a>
+                    </div> -->
+
+                    <!-- Swiper -->
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide" style="background-image:url(https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/c57abbc9b9e06aa5ca23715b569d4c6c.jpg?w=2452&h=920)"></div>
+                            <div class="swiper-slide" style="background-image:url(https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/1acdc8c5e49afede6d6b75ed32568b22.jpg?thumb=1&w=1533&h=575&f=webp&q=90)"></div>
+                            <div class="swiper-slide" style="background-image:url(https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/91e8be56a21db1b399fd25bfffe85bcc.jpeg?thumb=1&w=1533&h=575&f=webp&q=90)"></div>
+                            <div class="swiper-slide" style="background-image:url(https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/0ef4160c861b998239bce9adb82341e7.jpg?thumb=1&w=1533&h=575&f=webp&q=90)"></div>
+                            <div class="swiper-slide" style="background-image:url(https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/ed12ea68287caf5fa7807449f9a4f5b7.jpg?thumb=1&w=1533&h=575&f=webp&q=90)"></div>
+                        </div>
+                        <!-- Add Pagination -->
+                        <div class="swiper-pagination swiper-pagination-white"></div>
+                        <!-- Add Arrows -->
+                        <div class="swiper-button-next swiper-button-white" style="width: 27px;height: 44px;"></div>
+                        <div class="swiper-button-prev swiper-button-white" style="width: 27px;height: 44px;"></div>
+                    </div>
+
+                    <!-- Swiper JS -->
+                    <script src="../package/swiper-bundle.min.js"></script>
+
+                    <!-- Initialize Swiper -->
+                    <script>
+                        var swiper = new Swiper('.swiper-container', {
+                            spaceBetween: 30,
+                            effect: 'fade',
+                            pagination: {
+                                el: '.swiper-pagination',
+                                clickable: true,
+                            },
+                            navigation: {
+                                nextEl: '.swiper-button-next',
+                                prevEl: '.swiper-button-prev',
+                            },
+                        });
+                    </script>
+
+                </div>
             </div>
 
             <div class="header-sub clear">
@@ -138,7 +277,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="">
+                            <a href="">9.
                                 <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/806f2dfb2d27978e33fe3815d3851fa3.png?w=48&h=48" alt="企业团购">企业团购
                             </a>
                         </li>
@@ -192,6 +331,9 @@
                     <h2>
                         小米闪购
                     </h2>
+                    <div class="span">
+                        <span> < </span><span> > </span>
+                    </div>
                 </div>
 
                 <div class="box-picture  clear">
@@ -439,10 +581,20 @@
                     </a>
                 </div>
 
-                <div class="box-hd">
+                <div class="box-hd more">
                     <h2>
                         手机
                     </h2>
+                    <div class="more-tab">
+                        <ul class="tab-list">
+                            <li class="moo">
+                                <a href="">
+                                    <span>查看全部</span>
+                                    <span class="glyphicon glyphicon-circle-arrow-right"></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
                 <div class="miphone box clear">
                     <div class="mi11">
@@ -565,58 +717,59 @@
                             </li>
                             <li>
                                 <a href="">
-                                    <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/3483b4ec83f3d085c567633f2edef1c1.jpg?thumb=1&w=250&h=250&f=webp&q=90" alt="">
-                                    <h3>小米电视4C 32英寸</h3>
+                                    <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/03a9e7e96a09d256ca1badeec186c859.jpg?thumb=1&w=250&h=250&f=webp&q=90" alt="">
+                                    <h3> 小米全面屏电视65英寸 E65X</h3>
+                                    <p class="desc">全面屏设计</p>
+                                    <p class="price"><span>2869</span>元<del><span>3999</span></del>元</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/20d36fbaa18625e4fe507af31e4e9f83.jpg?thumb=1&w=250&h=250&f=webp&q=90" alt="">
+                                    <h3>全面屏4C 32英寸</h3>
+                                    <p class="desc">全面屏设计，海量内容</p>
+                                    <p class="price"><span>1869</span>元<del><span>2999</span></del>元</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/9d8674cd21c486feff5328772ab9cf01.jpg?thumb=1&w=250&h=250&f=webp&q=90" alt="">
+                                    <h3>小米电视4A 70英寸</h3>
+                                    <p class="desc">大屏更享受</p>
+                                    <p class="price"><span>3869</span>元<del><span>3999</span></del>元</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/ec20453216dcd42f982cffe5fdbc3115.jpg?thumb=1&w=250&h=250&f=webp&q=90" alt="">
+                                    <h3>米家互联网洗烘一体机 Pro 10kg
+                                    </h3>
+                                    <p class="desc">智能洗烘，省心省力</p>
+                                    <p class="price"><span>2869</span>元<del><span>4999</span></del>元</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/b8c63a2024528fe5410ebe669b7d2407.jpg?thumb=1&w=250&h=250&f=webp&q=90" alt="">
+                                    <h3>Redmi全自动波轮洗衣机1A 8kg</h3>
+                                    <p class="desc">一键操作，父母都爱用</p>
+                                    <p class="price"><span>799</span>元<del><span>999</span></del>元</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/ec0ec7692ba005710d1887262559609c.jpg?thumb=1&w=250&h=250&f=webp&q=90" alt="">
+                                    <h3>小米手环5</h3>
                                     <p class="desc">高清液晶屏，人工智能系统</p>
                                     <p class="price"><span>869</span>元<del><span>999</span></del>元</p>
                                 </a>
                             </li>
                             <li>
                                 <a href="">
-                                    <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/3483b4ec83f3d085c567633f2edef1c1.jpg?thumb=1&w=250&h=250&f=webp&q=90" alt="">
-                                    <h3>小米电视4C 32英寸</h3>
-                                    <p class="desc">高清液晶屏，人工智能系统</p>
-                                    <p class="price"><span>869</span>元<del><span>999</span></del>元</p>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/3483b4ec83f3d085c567633f2edef1c1.jpg?thumb=1&w=250&h=250&f=webp&q=90" alt="">
-                                    <h3>小米电视4C 32英寸</h3>
-                                    <p class="desc">高清液晶屏，人工智能系统</p>
-                                    <p class="price"><span>869</span>元<del><span>999</span></del>元</p>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/3483b4ec83f3d085c567633f2edef1c1.jpg?thumb=1&w=250&h=250&f=webp&q=90" alt="">
-                                    <h3>小米电视4C 32英寸</h3>
-                                    <p class="desc">高清液晶屏，人工智能系统</p>
-                                    <p class="price"><span>869</span>元<del><span>999</span></del>元</p>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/3483b4ec83f3d085c567633f2edef1c1.jpg?thumb=1&w=250&h=250&f=webp&q=90" alt="">
-                                    <h3>小米电视4C 32英寸</h3>
-                                    <p class="desc">高清液晶屏，人工智能系统</p>
-                                    <p class="price"><span>869</span>元<del><span>999</span></del>元</p>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/3483b4ec83f3d085c567633f2edef1c1.jpg?thumb=1&w=250&h=250&f=webp&q=90" alt="">
-                                    <h3>小米电视4C 32英寸</h3>
-                                    <p class="desc">高清液晶屏，人工智能系统</p>
-                                    <p class="price"><span>869</span>元<del><span>999</span></del>元</p>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/3483b4ec83f3d085c567633f2edef1c1.jpg?thumb=1&w=250&h=250&f=webp&q=90" alt="">
-                                    <h3>小米电视4C 32英寸</h3>
-                                    <p class="desc">高清液晶屏，人工智能系统</p>
-                                    <p class="price"><span>869</span>元<del><span>999</span></del>元</p>
+                                    <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/74e573c4c0d89048392d14831cc507d5.jpg?thumb=1&w=250&h=250&f=webp&q=90" alt="">
+                                    <h3>Air 13.3" 2019款 </h3>
+                                    <p class="desc">新一代独立显卡</p>
+                                    <p class="price"><span>4869</span>元<del><span>5999</span></del>元</p>
                                 </a>
                             </li>
                         </ul>
@@ -627,6 +780,19 @@
                     <a href="">
                         <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/59e8fc8ba9718c266882719fb4bbcedd.jpg?thumb=1&w=1533&h=150&f=webp&q=90" alt="">
                     </a>
+                </div>
+
+                <div class="box-hd more">
+                    <h2>
+                        智能
+                    </h2>
+                    <div class="more-tab">
+                        <ul class="tab-list">
+                            <li>热门</li>
+                            <li>安防</li>
+                            <li>出行</li>
+                        </ul>
+                    </div>
                 </div>
 
                 <div class="box clear ">
@@ -716,8 +882,321 @@
                 </div>
 
                 <div class="banner">
-                    <a href=""><img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/88e35cffc82cd98cd53172460067af17.jpg?thumb=1&w=1533&h=150&f=webp&q=90" alt=""></a>
+                    <a href="">
+                        <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/ba5b9f3063a059753e17d2951282c33a.jpg?thumb=1&w=1533&h=150&f=webp&q=90" alt="">
+                    </a>
                 </div>
+
+                <div class="box-hd more">
+                    <h2>
+                        搭配
+                    </h2>
+                    <div class="more-tab">
+                        <ul class="tab-list">
+                            <li>热门</li>
+                            <li>耳机</li>
+                            <li>音箱</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="box clear ">
+                    <div class="mibox1">
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/6874615b3c50e837ffe532eb6ea4ef1a.jpg?thumb=1&w=293&h=375&f=webp&q=90" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/9f6c89cf21efc23799f6130224cef007.jpg?thumb=1&w=293&h=375&f=webp&q=90" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="manymi clear">
+                        <ul class="clear">
+                            <li>
+                                <a href="">
+                                    <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/e7c6e79433c883e1a022ec21402c1679.jpg?thumb=1&w=250&h=250&f=webp&q=90" alt="">
+                                    <h3>小米电视4C 32英寸</h3>
+                                    <p class="desc">高清液晶屏，人工智能系统</p>
+                                    <p class="price"><span>869</span>元<del><span>999</span></del>元</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/3accd497afc0047cfbd40f442e3b17df.jpg?thumb=1&w=250&h=250&f=webp&q=90" alt="">
+                                    <h3>小米电视4C 32英寸</h3>
+                                    <p class="desc">高清液晶屏，人工智能系统</p>
+                                    <p class="price"><span>869</span>元<del><span>999</span></del>元</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/550177d2e54387521bce9e78cb2949dd.jpg?thumb=1&w=250&h=250&f=webp&q=90" alt="">
+                                    <h3>小米电视4C 32英寸</h3>
+                                    <p class="desc">高清液晶屏，人工智能系统</p>
+                                    <p class="price"><span>869</span>元<del><span>999</span></del>元</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="https://cdn.cnbj0.fds.api.mi-img.com/b2c-miapp-a1/T1r_x_BgLT1RXrhCrK.jpg?thumb=1&w=250&h=250" alt="">
+                                    <h3>小米电视4C 32英寸</h3>
+                                    <p class="desc">高清液晶屏，人工智能系统</p>
+                                    <p class="price"><span>869</span>元<del><span>999</span></del>元</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/5a312d69c1a5447c9e3d14d42d01a8fb.jpg?thumb=1&w=250&h=250&f=webp&q=90" alt="">
+                                    <h3>小米电视4C 32英寸</h3>
+                                    <p class="desc">高清液晶屏，人工智能系统</p>
+                                    <p class="price"><span>869</span>元<del><span>999</span></del>元</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/49f30069c778b494257320d9da5a1a60.jpg?thumb=1&w=250&h=250&f=webp&q=90" alt="">
+                                    <h3>小米电视4C 32英寸</h3>
+                                    <p class="desc">高清液晶屏，人工智能系统</p>
+                                    <p class="price"><span>869</span>元<del><span>999</span></del>元</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/ec0ec7692ba005710d1887262559609c.jpg?thumb=1&w=250&h=250&f=webp&q=90" alt="">
+                                    <h3>小米电视4C 32英寸</h3>
+                                    <p class="desc">高清液晶屏，人工智能系统</p>
+                                    <p class="price"><span>869</span>元<del><span>999</span></del>元</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/7d9e8308f5f55bfa69c5c7fadc7cb4aa.jpg?thumb=1&w=250&h=250&f=webp&q=90" alt="">
+                                    <h3>小米电视4C 32英寸</h3>
+                                    <p class="desc">高清液晶屏，人工智能系统</p>
+                                    <p class="price"><span>869</span>元<del><span>999</span></del>元</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="banner">
+                    <a href="">
+                        <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/1615d1842fe85914a545297836a44271.jpg?thumb=1&w=1533&h=150&f=webp&q=90" alt="">
+                    </a>
+                </div>
+
+                <div class="box-hd more">
+                    <h2>
+                        配件
+                    </h2>
+                    <div class="more-tab">
+                        <ul class="tab-list">
+                            <li>热门</li>
+                            <li>充电器</li>
+
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="box clear ">
+                    <div class="mibox1">
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/9f64bbd58c3f5001bdf0688894f22cb6.jpg?thumb=1&w=293&h=375&f=webp&q=90" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/ffe4182f1d9a5befdf2380ec90ae1620.jpg?thumb=1&w=293&h=375&f=webp&q=90" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="manymi clear">
+                        <ul class="clear">
+                            <li>
+                                <a href="">
+                                    <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/f8fde8a877fd4b12ad88119d9b6bc061.jpg?thumb=1&w=250&h=250&f=webp&q=90" alt="">
+                                    <h3> 小米氮化镓GaN充电器 Type-C 65W</h3>
+                                    <p class="desc">氮化镓黑科技 65W MAX 大功率快充</p>
+                                    <p class="price"><span>869</span>元<del><span>149</span></del>元</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/9eb0178e3bfeb7d170edd641fb4be4bc.jpg?thumb=1&w=250&h=250&f=webp&q=90" alt="">
+                                    <h3>高速无线充套装</h3>
+                                    <p class="desc">快速无线闪充，Qi充电标准</p>
+                                    <p class="price"><span>149</span>元<del><span>999</span></del>元</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/1f32af53d1ad60f4980146f6a2b81019.jpg?thumb=1&w=250&h=250&f=webp&q=90" alt="">
+                                    <h3>小米无线充电宝青春版10000mAh</h3>
+                                    <p class="desc">能量满满，无线有线都能充</p>
+                                    <p class="price"><span>869</span>元<del><span>999</span></del>元</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="https://cdn.cnbj0.fds.api.mi-img.com/b2c-miapp-a1/T1r_x_BgLT1RXrhCrK.jpg?thumb=1&w=250&h=250" alt="">
+                                    <h3>小米电视4C 32英寸</h3>
+                                    <p class="desc">高清液晶屏，人工智能系统</p>
+                                    <p class="price"><span>869</span>元<del><span>999</span></del>元</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/fffc0a962387dff2f70aeb009ddf69ff.jpg?thumb=1&w=250&h=250&f=webp&q=90" alt="">
+                                    <h3>小米车载充电器快充版1A1C 100W</h3>
+                                    <p class="desc">小米车载充电器快充版1A1C 100W</p>
+                                    <p class="price"><span>69</span>元<del><span>999</span></del>元</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/49f30069c778b494257320d9da5a1a60.jpg?thumb=1&w=250&h=250&f=webp&q=90" alt="">
+                                    <h3>小米车载充电器快充版1A1C 100W</h3>
+                                    <p class="desc">高清液晶屏，人工智能系统</p>
+                                    <p class="price"><span>89</span>元<del><span>999</span></del>元</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/ec0ec7692ba005710d1887262559609c.jpg?thumb=1&w=250&h=250&f=webp&q=90" alt="">
+                                    <h3>小米电视4C 32英寸</h3>
+                                    <p class="desc">高清液晶屏，人工智能系统</p>
+                                    <p class="price"><span>869</span>元<del><span>999</span></del>元</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/7d9e8308f5f55bfa69c5c7fadc7cb4aa.jpg?thumb=1&w=250&h=250&f=webp&q=90" alt="">
+                                    <h3>小米电视4C 32英寸</h3>
+                                    <p class="desc">高清液晶屏，人工智能系统</p>
+                                    <p class="price"><span>869</span>元<del><span>999</span></del>元</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="banner">
+                    <a href="">
+                        <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/1615d1842fe85914a545297836a44271.jpg?thumb=1&w=1533&h=150&f=webp&q=90" alt="">
+                    </a>
+                </div>
+
+                <div class="box-hd more">
+                    <h2>
+                        周边
+                    </h2>
+                    <div class="more-tab">
+                        <ul class="tab-list">
+                            <li>热门</li>
+                            <li>出行</li>
+
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="box clear ">
+                    <div class="mibox1">
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/ca0940f052227d235e7de5678d106c89.jpg?thumb=1&w=293&h=375&f=webp&q=90" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/942985dc060f9274bdd1be4b02f1d7ef.jpg?thumb=1&w=293&h=375&f=webp&q=90" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="manymi clear">
+                        <ul class="clear">
+                            <li>
+                                <a href="">
+                                    <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cccac948e1b8ffb47f1fecde67692e60.jpg?thumb=1&w=250&h=250&f=webp&q=90" alt="">
+                                    <h3> 米家飞行员太阳镜 Pro</h3>
+                                    <p class="desc">尼龙偏光，轻巧佩戴</p>
+                                    <p class="price"><span>69</span>元<del><span>149</span></del>元</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/9eb0178e3bfeb7d170edd641fb4be4bc.jpg?thumb=1&w=250&h=250&f=webp&q=90" alt="">
+                                    <h3>高速无线充套装</h3>
+                                    <p class="desc">快速无线闪充，Qi充电标准</p>
+                                    <p class="price"><span>149</span>元<del><span>999</span></del>元</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/1f32af53d1ad60f4980146f6a2b81019.jpg?thumb=1&w=250&h=250&f=webp&q=90" alt="">
+                                    <h3>小米无线充电宝青春版10000mAh</h3>
+                                    <p class="desc">能量满满，无线有线都能充</p>
+                                    <p class="price"><span>869</span>元<del><span>999</span></del>元</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/57433a4b991b2a2ddc889f2d8d434655.jpg?thumb=1&w=250&h=250&f=webp&q=90" alt="">
+                                    <h3>小米巨能写中性笔10支装
+                                    </h3>
+                                    <p class="desc">一支顶4支，超长顺滑书写</p>
+                                    <p class="price"><span>9.9</span>元<del><span>19</span></del>元</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/fffc0a962387dff2f70aeb009ddf69ff.jpg?thumb=1&w=250&h=250&f=webp&q=90" alt="">
+                                    <h3>小米车载充电器快充版1A1C 100W</h3>
+                                    <p class="desc">小米车载充电器快充版1A1C 100W</p>
+                                    <p class="price"><span>69</span>元<del><span>999</span></del>元</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/49f30069c778b494257320d9da5a1a60.jpg?thumb=1&w=250&h=250&f=webp&q=90" alt="">
+                                    <h3>小米车载充电器快充版1A1C 100W</h3>
+                                    <p class="desc">高清液晶屏，人工智能系统</p>
+                                    <p class="price"><span>89</span>元<del><span>999</span></del>元</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/03d94ee6059481a6adcb6c4c5c572fb4.jpg?thumb=1&w=250&h=250&f=webp&q=90" alt="">
+                                    <h3> 米家迷你保温杯</h3>
+                                    <p class="desc">可以随身携带的温度</p>
+                                    <p class="price"><span>49</span>元<del><span>99</span></del>元</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/f9017bebb14740ea46673aaa81a616cb.jpg?thumb=1&w=250&h=250&f=webp&q=90" alt="">
+                                    <h3>8H乳胶床垫2</h3>
+                                    <p class="desc">软硬双面可睡</p>
+                                    <p class="price"><span>869</span>元<del><span>999</span></del>元</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
 
                 <div class="box-hd more">
                     <h2>
@@ -725,7 +1204,7 @@
                     </h2>
                     <div class="more-tab">
                         <ul class="tab-list">
-                            <li>
+                            <li class="moo">
                                 <a href="">
                                     <span>查看全部</span>
                                     <span class="glyphicon glyphicon-circle-arrow-right"></span>

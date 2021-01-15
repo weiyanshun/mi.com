@@ -70,9 +70,9 @@
 }
 .main .con-right .ziying {
   color: #ff6700;
-  margin-bottom: 0;
+  margin: 15px 0 0 0;
 }
-.main .con-right span {
+.main .con-right .pic {
   font-size: 18px;
   line-height: 1;
   color: #ff6700;
@@ -82,4 +82,116 @@
 .main .con-right .line {
   margin-top: 12px;
   border-bottom: 1px solid #e0e0e0;
+}
+.main .con-right .address {
+  height: 104px;
+  padding: 30px 50px;
+  position: relative;
+  background: #fafafa;
+  border: 1px solid #e0e0e0;
+  margin-bottom: 30px;
+}
+.main .con-right .address > i {
+  position: absolute;
+  left: 20px;
+  top: 31px;
+  font-size: 18px;
+  color: #999;
+}
+.main .con-right .mai {
+  background: #f9f9fa;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+.main .con-right .mai .ban {
+  color: #616161;
+  font-size: 16px;
+}
+.main .con-right .mai .ban > span {
+  float: left;
+}
+.main .con-right .mai .ban > i {
+  float: right;
+}
+.main .con-right .mai .qian {
+  margin-top: 20px;
+  color: #ff6700;
+  font-size: 20px;
+}
+.main .con-right .shopcar {
+  margin: 10px 0 20px 0;
+}
+.main .con-right .shopcar input {
+  float: left;
+  width: 33px;
+  height: 40px;
+  outline: none;
+  border: 1px solid #b0b0b0;
+  margin-top: 6px;
+  margin-left: 10px;
+  text-align: 5px;
+}
+.main .con-right .shopcar .join {
+  float: left;
+  display: inline-block;
+  width: 298px;
+  height: 52px;
+  line-height: 52px;
+  font-size: 16px;
+  background: #ff6700;
+  color: #fff;
+  text-align: center;
+}
+.main .con-right .shopcar .love {
+  float: right;
+  display: inline-block;
+  width: 140px;
+  height: 52px;
+  margin-right: 76px;
+  line-height: 52px;
+  font-size: 16px;
+  background: #b0b0b0;
+  color: #fff;
+  text-align: center;
+}
+.main .con-right .shopcar .love i {
+  color: #fff;
+  font-size: 20px;
+  vertical-align: middle;
+}
+.main .con-right .sale span {
+  display: inline-block;
+}
+.main .con-right .sale span a {
+  display: inline-block;
+  margin-right: 15px;
+  line-height: 30px;
+  margin-bottom: 10px;
+  cursor: default;
+  white-space: nowrap;
+  color: #b0b0b0;
+}
+.main .con-right .sale span a i {
+  font-size: 20px;
+  display: inline-block;
+  font-style: normal;
+  vertical-align: middle;
+}
+.main .con-right .sale span a em {
+  display: inline-block;
+  margin-left: 2px;
+  vertical-align: middle;
+}
+.product {
+  background: #f5f5f5;
+  padding-bottom: 50px;
+}
+.product h3 {
+  font-size: 22px;
+  font-weight: 400;
+  padding: 1em 0;
+}
+.product img {
+  display: block;
+  height: 189px;
 }

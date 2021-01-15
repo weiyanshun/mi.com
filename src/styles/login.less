@@ -1,195 +1,119 @@
 @charset "utf-8";
-.login{
-    width: 100%;
-    height: 100%;
-    background: #f9f9f9;
-    color: #666;
+.top{
+    // width: 100%;
+    // height: 98px;
+    a{
+        display: block;
+        width: 200px;
+        height: 98px;
+        background: url(https://account.xiaomi.com/static/res/7f6f2f5/account-static/respassport/acc-2014/img/mistore_logo.png) no-repeat;
+    }
+}
+.main-img{
+    background: url("https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/72644d9b8031286de3cc74e151aefd90.jpg") no-repeat top center;
+    height: 588px;
     .wrap{
-        width: 854px;
+        position: relative;
+        width: 1130px;
         margin: 0 auto;
-        padding-bottom: 88px;
-        .frame{
-           
+        .lay{
+            position: relative;
             background: #fff;
-            padding: 0 34px 30px;
-            .logo{
-                padding-bottom: 40px;
-                a {
-                    width: 49px;
-                    height: 48px;
-                    margin: 0 auto;
-                    display: block;
-                    cursor: default;
-                    background-image: url(https://account.xiaomi.com/static/res/349d9c1/account-static/respassport/acc-2014/img/milogo.png);
-                }
-        }
-        
-            .item{
+            width: 410px;
+            height: 556px;
+            position: absolute;
+            top: 32px;
+            right: 0;
+            font-size: 14px;
+            z-index: 4;
+            .tab-p{
+                height: 83px;
+                padding: 27px 0 24px;
                 text-align: center;
-                font-size: 30px;
-                color: #333;
-        }
-
-            .wu{
-                .text {
-                    margin: 0 auto;
-                    width: 332px;
-                    padding: 30px 0;
-                    line-height: 20px;
-                    .step1{
-                        line-height: 20px;
-                        h4{   
-                            padding-bottom: 5px;
-                            color: #333;
-                            font-size: 14px;
-                        }
-                    
-                        .listwrap{
-                            padding-bottom: 15px;
-                            position: relative;
-                            line-height: 20px;
-                            .cn{
-                                width: 316px;
-                                height: 40px;
-                                
-                                padding-left: 14px;
-                                line-height: 40px;
-                                display: inline-block;
-                                vertical-align: middle;
-                                border: 1px solid #e8e8e8;
-                                color: #555;
-                                cursor: pointer;
-                                p{  
-                                    float: left;
-                                    width: 275px;
-                                    border-right: 1px solid #e8e8e8;
-                                    cursor: pointer;
-                                }
-                                i{
-                                    float: right;
-                                    background: url(https://account.xiaomi.com/static/res/0eeaaed/passport/oauth/images/icon_user.png);
-                                    width: 16px;
-                                    height: 16px;
-                                    margin: 11px 12px 0 12px;
-                                }
-                            }
-                        }
-
-                        .tip{
-                            margin-bottom: 15px;
-                        }
-                        .phone{
-                            width: 332px;
-                            padding-bottom: 30px;
-                            line-height: 20px;
-                           
-                          
-                            label{
-                                margin-left: -1px;
-                                position: relative;
-                                z-index: 3;
-                                height: 42px;
-                                line-height: 42px;
-                                display: inline-block;
-                                border: 1px solid #e8e8e8;
-                                .cy{
-                                    float: left;
-                                    border-right: 1px solid #e8e8e8;
-                                    height: 42px;
-                                    line-height: 42px;
-                                    display: inline-block;
-                                    .tits {
-                                        width: 54px;
-                                        text-align: center;
-                                        border: 0 none;
-                                        height: 40px;
-                                        padding-left: 14px;
-                                        line-height: 40px;
-                                        display: inline-block;
-                                        vertical-align: middle;
-                                        color: #555;
-                                        cursor: pointer;
-                                        p{
-                                            width: auto;
-                                            border-right: 0 none;
-                                            float: left;
-                                            cursor: pointer;
-                                        }
-                                        i{
-                                            float: left;
-                                            margin: 17px 0 0 10px;
-                                        }
-                                    }
-                                }
-                                input{
-                                    width: 242px;
-                                    height: 20px;
-                                    line-height: 20px;
-                                    padding: 10px;
-                                    border: 0;
-                                    outline: none;
-                                    display: inline-block;
-                                }
-                            }
-                        }
-                        .sub{
-                            input{
-                            background-color: #ff6700;
-                            border: 0;
-                            color: #fff;
-                            width: 330px;
-                            height: 42px;
-                            margin: 0 auto;
-                            line-height: 42px;
-                            text-align: center;
-                            font-size: 14px;
-                            display: block;
-                            cursor: pointer;
-                            overflow: hidden;
-                        }
-                        }
-                        }
-                  
-                }
-                .privacy {
-                    text-align: center;
-                    padding-top: 40px;
-                    .msg{
-                        color: #9d9d9d;
-                        .n_checked {
-                            padding: 10px 0;
-                            cursor: pointer;
-                            display: inline-block;
-                        }
-                    }
-                }
-                
-        }
-            
-    }
-    }
-
-    .footer{
-        color: #9d9d9d;
-        text-align: center;
-        height: 80px;
-        margin-top: -80px;
-        .nf-link-area {
-            text-align: center;
-            li{
-                display: inline-block;
+                font-size: 24px;
+                color: #666;
                 a{
-                    padding: 0 10px;
                     display: inline-block;
-                    color: #333;
+                    width: 198px;
+                    height: 27px;
+                }
+                .one{
+                    border-right: 3px solid #e0e0e0;
+                    color: #f56600;
                 }
             }
-        }
-        p{
-            padding: 10px;
-            a{
-                color: #9d9d9d;
+            input{
+                
+                width: 348px;
+                height: 50px;
+                margin-left: 30px;
+                border: 1px solid #e0e0e0;
+                outline: none;
+                font-size: 14px;
+                // color: #333;
+                text-indent: 16px;
             }
+            .p{
+                color: #f56600;
+            }
+            .sm{
+                margin-top: 25px;
+                margin-bottom: 10px;
+                background: #f56600;
+                color: #fff;
+            }
+           .iphone{
+               display: block;
+               text-align: center;
+               font-size: 14px;
+               color: #f56600;
+               margin-bottom: 30px;
+           }
+           .beg{
+               color: #999;
+               text-align: center;
+               
+               a{
+                   color: #999;
+               }
+           }
+           .tubiao{
+               position: absolute;
+               bottom: 40px;
+               left: 31px;
+               width: 348px;
+               
+               display: flex;
+               justify-content: space-around;
+               .iconfont{
+                   font-size: 27px;
+               }
+           }
+        }
+    }
+}
+
+.footer{
+    color: #9d9d9d;
+    text-align: center;
+    height: 80px;
+    margin-top: 80px;
+    .nf-link-area {
+      
+        text-align: center;
+        li{
+            display: inline-block;
+            a{
+                padding: 0 10px;
+                display: inline-block;
+                color: #333;
+            }
+        }
+    }
+    p{
+        padding: 10px;
+        a{
+            color: #9d9d9d;
         }
     }
 }

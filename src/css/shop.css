@@ -1,0 +1,212 @@
+@charset "utf-8";
+.site-header {
+  font-size: 12px;
+  border-bottom: 2px solid #ff6700;
+  background: #fff;
+  position: relative;
+  z-index: 20;
+  height: 100px;
+}
+.site-header .header-logo {
+  margin-top: 26px;
+  float: left;
+  display: block;
+  width: 48px;
+  height: 48px;
+  overflow: hidden;
+  background-color: #ff6700;
+}
+.site-header .header-logo a {
+  display: block;
+  width: 48px;
+  height: 48px;
+  background: url(https://s02.mifile.cn/assets/static/image/mi-logo.png) no-repeat 50% 50%;
+}
+.site-header .top-bar {
+  float: left;
+  margin-top: 26px;
+}
+.site-header .top-bar h2 {
+  margin-left: 45px;
+  float: left;
+  line-height: 48px;
+  font-size: 28px;
+}
+.site-header .top-bar p {
+  float: left;
+  height: 20px;
+  line-height: 20px;
+  margin-top: 20px;
+  margin-left: 15px;
+  color: #757575;
+}
+.site-header .top-right {
+  float: right;
+  height: 40px;
+  line-height: 40px;
+  margin-top: 35px;
+  color: #757575;
+}
+.site-header .top-right a {
+  padding: 0 5px;
+  color: #757575;
+  text-align: center;
+}
+.page-main {
+  padding: 38px 0;
+  background: #f5f5f5;
+}
+.page-main .cart-top {
+  display: flex;
+  background-color: #fff;
+  height: 70px;
+  line-height: 70px;
+  color: #424242;
+}
+.page-main .cart-top .ch {
+  width: 110px;
+  height: 70px;
+  line-height: 70px;
+}
+.page-main .cart-top .ch input {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  line-height: 18px;
+  border: 1px solid #e0e0e0;
+  margin-left: 24px;
+  margin-right: 15px;
+  background-color: #fff;
+  color: #757575;
+  font-size: 20px;
+  text-align: center;
+  vertical-align: middle;
+  position: relative;
+  top: -1px;
+  cursor: pointer;
+}
+.page-main .cart-top .phone-img {
+  width: 120px;
+}
+.page-main .cart-top .itname {
+  width: 380px;
+}
+.page-main .cart-top .price {
+  width: 140px;
+  padding-right: 18px;
+  text-align: center;
+}
+.page-main .cart-top .num {
+  width: 150px;
+  text-align: center;
+}
+.page-main .cart-top .tot {
+  width: 120px;
+  padding-right: 81px;
+  text-align: right;
+}
+.page-main .cart-top .act {
+  width: 80px;
+  text-align: center;
+}
+.page-main .cart {
+  background-color: #fff;
+  padding: 15px 26px 15px 0;
+  border-top: 1px solid #e0e0e0;
+}
+.page-main .cart > div {
+  display: table-cell;
+  vertical-align: middle;
+}
+.page-main .cart .ch {
+  width: 110px;
+  height: 70px;
+  line-height: 70px;
+}
+.page-main .cart .ch input {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  line-height: 18px;
+  border: 1px solid #e0e0e0;
+  margin-left: 24px;
+  margin-right: 15px;
+  background-color: #fff;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  vertical-align: middle;
+  position: relative;
+  top: -1px;
+  cursor: pointer;
+}
+.page-main .cart .phone-img {
+  width: 120px;
+}
+.page-main .cart .itname {
+  width: 380px;
+}
+.page-main .cart .price {
+  width: 140px;
+  padding-right: 18px;
+  text-align: center;
+}
+.page-main .cart .p-num {
+  width: 150px;
+  text-align: center;
+}
+.page-main .cart .p-num input {
+  width: 80px;
+  height: 25px;
+}
+.page-main .cart .tot {
+  width: 120px;
+  padding-right: 81px;
+  text-align: right;
+}
+.page-main .cart .act {
+  width: 80px;
+  text-align: center;
+}
+.page-main .cart-bar {
+  height: 50px;
+  margin: 17px 0 23px;
+  background-color: #fff;
+}
+.page-main .cart-bar .section-left {
+  float: left;
+}
+.page-main .cart-bar .section-left .shopping {
+  line-height: 50px;
+  margin-left: 32px;
+  color: #757575;
+}
+.page-main .cart-bar .section-left .ping {
+  margin-left: 16px;
+  padding-left: 16px;
+  border-left: 1px solid #eee;
+  color: #757575;
+}
+.page-main .cart-bar .section-left .ping i {
+  color: #ff6700;
+}
+.page-main .cart-bar .count {
+  float: right;
+  display: block;
+  width: 200px;
+  height: 48px;
+  line-height: 48px;
+  font-size: 18px;
+  margin-left: 50px;
+  text-align: center;
+  background: #ff6700;
+  color: #fff;
+}
+.page-main .cart-bar .number {
+  float: right;
+  color: #ff6700;
+  font-size: 14px;
+}
+.page-main .cart-bar .number em {
+  font-size: 30px;
+}

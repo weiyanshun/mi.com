@@ -8,6 +8,18 @@
 .header {
   margin-bottom: 26px;
 }
+.header .swiper-container-horizontal > .swiper-pagination-bullets,
+.header .swiper-pagination-custom,
+.header .swiper-pagination-fraction {
+  bottom: 10px;
+  left: 1060px;
+  width: 150px;
+}
+.header .swiper-button-prev,
+.header .swiper-container-rtl .swiper-button-next {
+  left: 245px;
+  right: auto;
+}
 .header .header-top {
   height: 40px;
   background: #333;
@@ -115,6 +127,12 @@
   width: 55px;
   height: 55px;
   background-color: #ff6700;
+}
+.header .site-header .header-logo a:hover::before {
+  margin-left: 55px;
+}
+.header .site-header .header-logo a:hover::after {
+  margin-left: 0;
 }
 .header .site-header .header-logo a::before {
   background: url(https://s02.mifile.cn/assets/static/image/mi-logo.png) no-repeat 50% 50%;
@@ -228,9 +246,42 @@
   background-color: #ff6700;
   color: #fff;
 }
-.header .header-home {
+.header .part1 {
   height: 460px;
+}
+.header .part1 > .wrapper {
+  position: relative;
+  height: 460px;
+}
+.header .part1 > .wrapper > div {
+  float: left;
+}
+.header .part1 .tab > ul {
+  background: #444f57;
+  padding: 15px 0;
+  position: absolute;
+  z-index: 99;
+}
+.header .part1 .tab > ul li {
+  width: 235px;
+  height: 43px;
+  background: #444f57;
+  padding-left: 30px;
+  line-height: 43px;
+  position: relative;
+}
+.header .part1 .tab > ul li:hover {
   background: #ff6700;
+}
+.header .part1 .tab > ul li span {
+  font-size: 14px;
+  color: #e0e0e0;
+  position: absolute;
+  right: 24px;
+  top: 15px;
+}
+.header .part1 .tab > ul li a {
+  color: #fff;
 }
 .header .header-sub {
   margin-top: 14px;
@@ -297,6 +348,9 @@
   width: 316px;
   height: 170px;
   margin-left: 15px;
+}
+.header .header-sub .sub2 ul li:hover {
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
 }
 .header .header-sub .sub2 ul li a {
   display: block;

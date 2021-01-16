@@ -16,6 +16,8 @@ window.onload = function() {
         result[0].innerHTML = reg1.test(this.value) ? '√' : '×';
         if (result[0].innerHTML == '√') {
             result[0].dataset.flag = true;
+        } else if (result[0].innerHTML == '×') {
+            alert('请输入正确的手机号');
         }
     }
 
@@ -31,6 +33,7 @@ window.onload = function() {
         }
         if (count === 2) {
             submit.removeAttribute('disabled');
+            submit.classList.replace('sm', 'submit');
         }
     }
 

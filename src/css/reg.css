@@ -149,8 +149,13 @@
 .reg .wrap .frame .wu .text .step1 .pass span {
   color: #ff6700;
 }
-.reg .wrap .frame .wu .text .step1 .sub input {
+.reg .wrap .frame .wu .text .step1 .sub .submit1 {
+  background-color: grey;
+}
+.reg .wrap .frame .wu .text .step1 .sub .submit {
   background-color: #ff6700;
+}
+.reg .wrap .frame .wu .text .step1 .sub input {
   border: 0;
   outline: none;
   color: #fff;

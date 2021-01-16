@@ -19,6 +19,7 @@ if (shop) {
             let temp = '';
             let car = '';
             let bar = '';
+
             res.forEach((elm, i) => {
                 let picture = JSON.parse(elm.picture);
 
@@ -52,7 +53,7 @@ if (shop) {
                 `;
 
                 temp += `<div class="cart">
-                <div class="ch"><input type="checkbox" id="pro-1"></div>
+                <div class="ch"><input type="checkbox" id="pro-2"></div>
                 <div class="phone-img">
                     <img width=80 height=80 src="../${picture[0].src}" alt="">
                 </div>
@@ -88,20 +89,18 @@ if (shop) {
 
             });
             $('.shopcar').append(car, temp).find('.del').on('click', function() {
-                let shop2 = shop.filter(el => el.id != $(this).attr('data-id')); // 获得id不匹配的元素
-                cookie.set('shop', JSON.stringify(shop2), 1); // 将不匹配的元素从新写进cookie
+                let shop2 = shop.filter(el => el.id != $(this).attr('data-id')); 
+                cookie.set('shop', JSON.stringify(shop2), 1); // 不匹配的元素重新写进cookie
                 location.reload();
+                alert('你确定要清空购物车吗？');
             });
+
         }
     });
 
 }
 
-$(function() {
-    $('.ch').find('input:checkbox').on('click', function() {
-
-        if ($(this).prop('checked')) {
-
-        }
-    })
-});
+// $(function() {
+//     let check = $('.cart').find('#pro-2:checked');
+//     let sum = 0;
+// });

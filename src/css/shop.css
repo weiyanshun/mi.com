@@ -168,6 +168,18 @@
   width: 80px;
   text-align: center;
 }
+.page-main .cart .act a {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  line-height: 20px;
+  text-align: center;
+  border-radius: 50%;
+}
+.page-main .cart .act a:hover {
+  background-color: crimson;
+  color: #fff;
+}
 .page-main .cart-bar {
   height: 50px;
   margin: 17px 0 23px;

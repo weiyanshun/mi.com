@@ -369,8 +369,30 @@
                         7x4iTALjhcgVQSIl3v87w5vePcY/AQYAFYR6skFSqBUAAAAASUVORK5CYII=" alt="小米闪购">
                         <div class="desc">距离里结束还有</div>
                         <div class="countdown">
-                            <span>05</span><i>:</i><span>22</span><i>:</i><span>22</span>
+                            <span class="a"></span><i>:</i><span class="b"></span><i>:</i><span class="c"></span>
                         </div>
+                        <script>
+                            window.onload = function() {
+                                var time = document.querySelector('.countdown');
+                                var wo = document.querySelector('.a');
+                                var hai = document.querySelector('.b');
+                                var xing = document.querySelector('.c');
+                                var futuer = new Date(2021, 1, 12, 0, 0, 0);
+
+                                setInterval(function() {
+                                    var now = new Date(); // 获得当前时间
+                                    var calculate = futuer - now; // 毫秒值
+                                    var s = calculate / 1000; // 转换成秒
+                                    var day = parseInt(s / 86400); // 换算成天
+                                    var hour = parseInt(s % 86400 / 3600); // 计算小时
+                                    var min = parseInt(s % 3600 / 60); // 计算分钟
+                                    var sec = parseInt(s % 60); // 计算秒
+                                    wo.innerHTML = hour < 10 ? '0' + hour : hour;
+                                    hai.innerHTML = min;
+                                    xing.innerHTML = sec;
+                                }, 1000);
+                            }
+                        </script>
                     </div>
                     <div class="tinct clear">
                         <ul class="clear">
